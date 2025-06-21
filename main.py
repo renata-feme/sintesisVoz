@@ -11,6 +11,8 @@ nombre = input("¿Cuál es tu nombre? ")
 
 saludo = f"Hola, {nombre}! Gracias por usar el lector de texto!"
 print(saludo)
+print("En caso de querer detener el progama, puede escribir parar")
+print("En caso de querer salir del progama, puede escribir salir")
 engine.say(saludo)
 engine.runAndWait()
 
